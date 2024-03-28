@@ -12,7 +12,7 @@ struct PokemonRepositoryImpl {
     
     fileprivate let remote: RemoteDataSource
     
-    private init(remote: RemoteDataSource) {
+    init(remote: RemoteDataSource) {
         self.remote = remote
     }
     
