@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol PokemonRepositoryProtocol {
+    func getPokemons(offset: Int, limit: Int) async throws -> [PokemonEntryModel]
+}

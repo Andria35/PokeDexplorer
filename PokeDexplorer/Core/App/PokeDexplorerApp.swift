@@ -11,7 +11,7 @@ import SwiftUI
 struct PokeDexplorerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
